@@ -1,0 +1,373 @@
+{
+	"experience":[
+		{
+			"title":"Freelance Developer",
+			"inverted":false,
+			"time":"May 2017 - Present",
+			"priority":1,
+			"badge":"success",
+			"glyphicon":"fa fa-suitcase",
+			"menu":"timeline",
+			"body":"<p>I just started, portfolio is on its way!</p>"
+		},
+		{
+			"title":"Full Stack Web Developer - Surprice Car Rentals",
+			"inverted":true,
+			"time":"Jan 2012 - Apr 2017",
+			"priority":2,
+			"badge":"success",
+			"glyphicon":"fa fa-suitcase",
+			"body":"<p>A growing car rental network that effectively connects car providers with brokers.It belongs to a wider <a href=\"https://www.paspalakisbros.com\" target=\"_blank\">group of companies</a>. </p><ul><li>Updated the company's web service, to efficiently send detailed information on availability requests</li><li>Maintenance and expansion of a CRM/ERP system</li><li>Fixed security issues</li><li>Design and implementation of a Fleet Management System targeted to be used by the company's car providers. It communicates with the company's main system and helps the partner have a detailed view of the car fleet, organize orders, predict which seasons have low/high demand and schedule accordingly.</li></ul>"
+		},
+		{
+			"title":"Full Stack Web Developer - LeaderStay",
+			"inverted":true,
+			"time":"Jan 2012 - Apr 2017",
+			"priority":3,
+			"badge":"success",
+			"glyphicon":"fa fa-suitcase",
+			"body":"<p>A villas network that effectively connects property owners with booking platforms. </p><ul><li>System &amp; Database design and basic functions developing</li><li>Creation of a CRM/ERP system</li><li>Creation of Web Service to communicate with tour operators, supporting basic functions (get available villas, get price, send reserve/amend/cancel)</li><li>Creation of Web Service to communicate with villa owners, supporting basic functions (populate villa's static details, change availability)</li><li>Modification of the database and the system's functions, so it could support the concept of \"hotel rooms\" rather than single-entity villas</li></ul>"
+		},
+		{
+			"title":"Graduate Research Assistant - ICS FORTH",
+			"inverted":false,
+			"time":"Jan 2007 - Dec 2011",
+			"priority":4,
+			"badge":"success",
+			"glyphicon":"fa fa-university",
+			"body":"<p>BioMedicine Laboratory. <br/>Participated in research on Complex Networks and Graph Drawing. Main interests: graph visualization techniques, pattern recognition, threat prediction</p>"
+		},
+		{
+			"title":"Bsc Computer Science",
+			"inverted":true,
+			"time":"2006 - 2010",
+			"priority":5,
+			"badge":"primary",
+			"glyphicon":"glyphicon-education",
+			"body":"<p>Thesis Title: Complex Networks</p>",
+			"menu":"education"
+		},
+		{
+			"title":"Msc Mathematical Foundation of Computer Science",
+			"inverted":false,
+			"time":"2006 - 2009",
+			"priority":6,
+			"badge":"primary",
+			"glyphicon":"glyphicon-education",
+			"body":"<p>Thesis Title: <a href=\"data/Koytaki-MSthesis.pdf\" target=\"_blank\">Construction of Surrounding Curves for Convex Polygonal Objects using Voronoi Diagrams</a></p><p>Main fields: algorithmic complexity, coding &amp; cryptography, probabilistic algorithms, computational geometry</p>"
+		},
+		{
+			"title":"Graduate Teaching Assistant",
+			"inverted":false,
+			"time":"Sep 2006 - Jun 2008",
+			"priority":7,
+			"badge":"success",
+			"glyphicon":"glyphicon-pencil",
+			"body":"<ul><li>Data Structures</li><li>Discrete Mathematics</li></ul>"
+		},
+		{
+			"title":"Undergraduate Teaching Assistant",
+			"inverted":true,
+			"time":"Feb 2004 - Jun 2006",
+			"priority":8,
+			"badge":"success",
+			"glyphicon":"glyphicon-pencil",
+			"body":"<ul><li>Introduction to Applied Mathematics I</li><li>Calculus II</li></ul>"
+		},
+		{
+			"title":"Bsc Applied Mathematics",
+			"inverted":true,
+			"time":"2002 - 2006",
+			"priority":9,
+			"badge":"primary",
+			"glyphicon":"glyphicon-education"
+		}
+	],
+	"skills":[
+		{
+			"category":"Computer Science",
+			"modal_id":"computer_science_modal",
+			"items":[
+				{
+					"subcategory":"Programming Languages",
+					"subitems":[
+						{
+							"text":"PHP",
+							"percentage":"95"
+						},
+						{
+							"text":"C",
+							"percentage":"95"
+						},
+						{
+							"text":"Java",
+							"percentage":"65"
+						},
+						{
+							"text":"Ruby",
+							"percentage":"60"
+						},
+						{
+							"text":"JavaScript, jQuery",
+							"percentage":"85"
+						}
+					]
+				},
+				{
+					"subcategory":"Markup Languages",
+					"subitems":[
+						{
+							"text":"HTML, HTML5",
+							"percentage":"95"
+						},
+						{
+							"text":"XML",
+							"percentage":"95"
+						},
+						{
+							"text":"LaTeX",
+							"percentage":"70"
+						}
+					]
+				},
+				{
+					"subcategory":"Stylesheet Languages",
+					"subitems":[
+						{
+							"text":"CSS",
+							"percentage":"80"
+						},
+						{
+							"text":"SASS",
+							"percentage":"65"
+						},
+						{
+							"text":"LESS",
+							"percentage":"65"
+						}
+					]
+				},
+				{
+					"subcategory":"Databases",
+					"subitems":[
+						{
+							"text":"SQL, MySQL",
+							"percentage":"95"
+						},
+						{
+							"text":"NoSQL",
+							"percentage":"45"
+						}
+					],
+					"columnbreak":true
+				},
+				{
+					"subcategory":"Web Services",
+					"subitems":[
+						{
+							"text":"SOAP",
+							"percentage":"85"
+						},
+						{
+							"text":"REST",
+							"percentage":"50"
+						}
+					]
+				},
+				{
+					"subcategory":"FrameWorks",
+					"subitems":[
+						{
+							"text":"Bootstrap",
+							"percentage":"95"
+						},
+						{
+							"text":"Laravel",
+							"percentage":"55"
+						},
+						{
+							"text":"Ruby on Rails",
+							"percentage":"60"
+						},
+						{
+							"text":"AngularJS",
+							"percentage":"50"
+						}
+					]
+				},
+				{
+					"subcategory":"Tools",
+					"subitems":[
+						{
+							"text":"Git",
+							"percentage":"80"
+						},
+						{
+							"text":"Grunt, Gulp",
+							"percentage":"55"
+						},
+						{
+							"text":"GIMP, Photoshop",
+							"percentage":"70"
+						},
+						{
+							"text":"Matlab",
+							"percentage":"70"
+						}
+					]
+				},
+				{
+					"subcategory":"Programming Principles",
+					"subitems":[
+						{
+							"text":"developing with security in mind",
+							"percentage":"90"
+						},
+						{
+							"text":"clean code",
+							"percentage":"90"
+						},
+						{
+							"text":"Agile Scrum",
+							"percentage":"80"
+						}
+					]
+				}
+			],
+			"columns":6
+		},
+		{
+			"category":"Mathematics",
+			"modal_id":"maths_modal",
+			"items":[
+				{
+					"subitems":[
+						{
+							"text":"Discrete mathematics, Number Theory",
+							"percentage":"90"
+						},
+						{
+							"text":"Graph theory",
+							"percentage":"80"
+						},
+						{
+							"text":"Algebra, Cryptography",
+							"percentage":"75"
+						},
+						{
+							"text":"Mathematical logic",
+							"percentage":"80"
+						},
+						{
+							"text":"Geometry, Computational Geometry",
+							"percentage":"90"
+						},
+						{
+							"text":"Probability, Statistics",
+							"percentage":"70"
+						},
+						{
+							"text":"Numerical analysis",
+							"percentage":"65"
+						},
+						{
+							"text":"Mathematical analysis, Calculus",
+							"percentage":"65"
+						}
+					]
+				}
+			],
+			"columns":12
+		},
+		{
+			"category":"Personal Skills",
+			"modal_id":"personality_modal",
+			"items":[
+				{
+					"subitems":[
+						{
+							"text":"adaptability",
+							"percentage":"76"
+						},
+						{
+							"text":"creative",
+							"percentage":"65"
+						},
+						{
+							"text":"critical thinking",
+							"percentage":"92"
+						},
+						{
+							"text":"dependability",
+							"percentage":"95"
+						},
+						{
+							"text":"detail oriented",
+							"percentage":"70"
+						},
+						{
+							"text":"flexibility",
+							"percentage":"76"
+						},
+						{
+							"text":"honesty",
+							"percentage":"95"
+						},
+						{
+							"text":"organizational",
+							"percentage":"92"
+						},
+						{
+							"text":"perceptive",
+							"percentage":"95"
+						},
+						{
+							"text":"problem solving",
+							"percentage":"83"
+						},
+						{
+							"text":"sociable",
+							"percentage":"92"
+						},
+						{
+							"text":"teamwork",
+							"percentage":"92"
+						},
+						{
+							"text":"trustworthy",
+							"percentage":"95"
+						},
+						{
+							"text":"communication",
+							"percentage":"95"
+						}
+					]
+				}
+			],
+			"columns":12
+		},
+		{
+			"category":"Languages",
+			"modal_id":"languages_modal",
+			"items":[
+				{
+					"subitems":[
+						{
+							"text":"Greek",
+							"percentage":"100"
+						},
+						{
+							"text":"English",
+							"percentage":"95"
+						},
+						{
+							"text":"French",
+							"percentage":"40"
+						}
+					]
+				}
+			],
+			"columns":12
+		}
+	]
+}

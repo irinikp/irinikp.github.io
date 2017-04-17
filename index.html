@@ -16,6 +16,9 @@
 
     <!-- Theme CSS -->
     <script src="js/daynight_theme.min.js"></script>
+    <noscript>
+    <link rel='stylesheet' href='css/mystyle_day.min.css' type='text/css'>
+    </noscript>
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -67,9 +70,6 @@
                     <li class="page-scroll">
                         <a href="#education">Education</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -78,19 +78,43 @@
     </nav>
 
     <!-- Header -->
-    <header data-include="head">
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <div class="media">
+                          <div class="media">
+                          <img class="media-object" src="img/profile.png" alt="Irini's Avatar">
+                          </div>
+                          <div class="media-body">
+                            <h1 class="name">Irini Koutaki</h1>
+                            <span class="skills">Software Developer / Mathematician</span>
+                        </div>
+                      </div>
+                    </div>            
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="about">
-        <div class="container">
+    <section>
+        <div class="container" id="about">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>Hi there! My name is Irini and I am a passionate web developer living in Crete, Greece. I believe in and <a href="https://github.com/irinikp" target="_blank">actively</a> <a href="https://stackoverflow.com/users/7690210/irini-koutaki" target="_blank">contribute</a> to a global, friendly and knowledge sharing community. </p>
                 </div>
             </div>
+            <noscript>
+                <div class="row">
+                    <div class="col-lg-12 text-center page-scroll">
+                        <p>You can find me on <a href="https://twitter.com/irinikp" target="_blank">Twitter</a> · <a href="https://github.com/irinikp" target="_blank">Github</a> · <a href="https://stackoverflow.com/users/7690210/irini-koutaki" target="_blank">Stack Overflow</a> · <a href="https://www.linkedin.com/in/irini-koutaki/" target="_blank">Linked In</a></p>
+                    </div>
+                </div>
+            </noscript>
             <div class="row">
                 <div class="col-lg-12 text-center page-scroll">
-                    <p>Feel free to <a href="#contact">contact me</a>!</p>
+                    <p>Feel free to <a href="http://www.google.com/recaptcha/mailhide/d?k=01hzEQ2ov01YnR-kA-9bNmyA==&amp;c=JoO5LWp1-ceN13o220UrrZhd6Gu8uk8umygsNRQHfMQ=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\x3d01hzEQ2ov01YnR-kA-9bNmyA\x3d\x3d\x26c\x3dJoO5LWp1-ceN13o220UrrZhd6Gu8uk8umygsNRQHfMQ\x3d', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">contact me</a>!</p>
                 </div>
             </div>
         </div>
@@ -102,21 +126,103 @@
     <!-- Skill Modals -->
     <div class="modal fade" id="computer_science_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     </div>
-    <div class="portfolio-modal modal fade" id="maths_modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="skills-modal modal fade" id="maths_modal" tabindex="-1" role="dialog" aria-hidden="true">
     </div>
-    <div class="portfolio-modal modal fade" id="personality_modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="skills-modal modal fade" id="personality_modal" tabindex="-1" role="dialog" aria-hidden="true">
     </div>
-    <div class="portfolio-modal modal fade" id="languages_modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="skills-modal modal fade" id="languages_modal" tabindex="-1" role="dialog" aria-hidden="true">
     </div>
 
     <section>
         <div class="container">
-            <ul class="timeline"></ul>
+            <ul class="timeline" id="timeline">
+                <li>
+                  <div class='timeline-badge success'><i class='glyphicon fa fa-suitcase'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Freelance Developer</h4>
+                      <p><small class="text-muted">May 2017 - Present</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>I just started, portfolio is on its way!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge success"><i class='glyphicon fa fa-suitcase'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Full Stack Web Developer</h4>
+                      <p><small class="text-muted">Jan 2012 - Apr 2017</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>A group of companies involved in the tourism sector. </p><ul><li>Systems &amp; databases design, development and maintenance</li><li>Creation of a CRM/ERP system</li><li>Creation of web services to exchange information with tour operators. Integration as a client with other web services</li><li>Fixed security issues</li></ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-badge success"><i class='glyphicon fa fa-suitcase'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Graduate Research Assistant - ICS FORTH</h4>
+                      <p><small class="text-muted">Jan 2007 - Dec 2011</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>BioMedicine Laboratory. <br/>Participated in research on Complex Networks and Graph Drawing. Main interests: graph visualization techniques, pattern recognition, threat prediction</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted" id="education">
+                  <div class="timeline-badge primary"><i class='glyphicon glyphicon-education'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Bsc Computer Science</h4>
+                      <p><small class="text-muted">2006 - 2010</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Thesis Title: Complex Networks</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline">
+                  <div class="timeline-badge primary"><i class='glyphicon glyphicon-education'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Msc Mathematical Foundation of Computer Science</h4>
+                      <p><small class="text-muted">2006 - 2009</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Thesis Title: <a href="data/Koytaki-MSthesis.pdf" target="_blank">Construction of Surrounding Curves for Convex Polygonal Objects using Voronoi Diagrams</a></p><p>Main fields: algorithmic complexity, coding &amp; cryptography, probabilistic algorithms, computational geometry</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-badge primary"><i class='glyphicon glyphicon-education'></i></div>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title">Bsc Applied Mathematics</h4>
+                      <p><small class="text-muted">2002 - 2006</small></p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center" data-include="contact">
+    <footer class="text-center">
+    <div data-include="social"></div>
+        <div class="footer-above" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <div id="copyright">
+                        © 2017 Irini Koutaki, all rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery -->
@@ -129,7 +235,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/mystyle.min.js"></script>
+    <script src="js/myscript.min.js"></script>
     <script src="js/sections.min.js"></script>
     <script src="js/json_handler.min.js"></script>
     <script src="js/analytics.min.js"></script>

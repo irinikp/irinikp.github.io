@@ -1,88 +1,4 @@
 {
-	"experience":[
-		{
-			"title":"Freelance Developer",
-			"inverted":false,
-			"time":"May 2017 - Present",
-			"priority":1,
-			"badge":"success",
-			"glyphicon":"fa fa-suitcase",
-			"menu":"timeline",
-			"body":"<p>I just started, portfolio is on its way!</p>"
-		},
-		{
-			"title":"Full Stack Web Developer - Surprice Car Rentals",
-			"inverted":true,
-			"time":"Jan 2012 - Apr 2017",
-			"priority":2,
-			"badge":"success",
-			"glyphicon":"fa fa-suitcase",
-			"body":"<p>A growing car rental network that effectively connects car providers with brokers.It belongs to a wider <a href=\"https://www.paspalakisbros.com\" target=\"_blank\">group of companies</a>. </p><ul><li>Updated the company's web service, to efficiently send detailed information on availability requests</li><li>Maintenance and expansion of a CRM/ERP system</li><li>Fixed security issues</li><li>Design and implementation of a Fleet Management System targeted to be used by the company's car providers. It communicates with the company's main system and helps the partner have a detailed view of the car fleet, organize orders, predict which seasons have low/high demand and schedule accordingly.</li></ul>"
-		},
-		{
-			"title":"Full Stack Web Developer - LeaderStay",
-			"inverted":true,
-			"time":"Jan 2012 - Apr 2017",
-			"priority":3,
-			"badge":"success",
-			"glyphicon":"fa fa-suitcase",
-			"body":"<p>A villas network that effectively connects property owners with booking platforms. </p><ul><li>System &amp; Database design and basic functions developing</li><li>Creation of a CRM/ERP system</li><li>Creation of Web Service to communicate with tour operators, supporting basic functions (get available villas, get price, send reserve/amend/cancel)</li><li>Creation of Web Service to communicate with villa owners, supporting basic functions (populate villa's static details, change availability)</li><li>Modification of the database and the system's functions, so it could support the concept of \"hotel rooms\" rather than single-entity villas</li></ul>"
-		},
-		{
-			"title":"Graduate Research Assistant - ICS FORTH",
-			"inverted":false,
-			"time":"Jan 2007 - Dec 2011",
-			"priority":4,
-			"badge":"success",
-			"glyphicon":"fa fa-university",
-			"body":"<p>BioMedicine Laboratory. <br/>Participated in research on Complex Networks and Graph Drawing. Main interests: graph visualization techniques, pattern recognition, threat prediction</p>"
-		},
-		{
-			"title":"Bsc Computer Science",
-			"inverted":true,
-			"time":"2006 - 2010",
-			"priority":5,
-			"badge":"primary",
-			"glyphicon":"glyphicon-education",
-			"body":"<p>Thesis Title: Complex Networks</p>",
-			"menu":"education"
-		},
-		{
-			"title":"Msc Mathematical Foundation of Computer Science",
-			"inverted":false,
-			"time":"2006 - 2009",
-			"priority":6,
-			"badge":"primary",
-			"glyphicon":"glyphicon-education",
-			"body":"<p>Thesis Title: <a href=\"data/Koytaki-MSthesis.pdf\" target=\"_blank\">Construction of Surrounding Curves for Convex Polygonal Objects using Voronoi Diagrams</a></p><p>Main fields: algorithmic complexity, coding &amp; cryptography, probabilistic algorithms, computational geometry</p>"
-		},
-		{
-			"title":"Graduate Teaching Assistant",
-			"inverted":false,
-			"time":"Sep 2006 - Jun 2008",
-			"priority":7,
-			"badge":"success",
-			"glyphicon":"glyphicon-pencil",
-			"body":"<ul><li>Data Structures</li><li>Discrete Mathematics</li></ul>"
-		},
-		{
-			"title":"Undergraduate Teaching Assistant",
-			"inverted":true,
-			"time":"Feb 2004 - Jun 2006",
-			"priority":8,
-			"badge":"success",
-			"glyphicon":"glyphicon-pencil",
-			"body":"<ul><li>Introduction to Applied Mathematics I</li><li>Calculus II</li></ul>"
-		},
-		{
-			"title":"Bsc Applied Mathematics",
-			"inverted":true,
-			"time":"2002 - 2006",
-			"priority":9,
-			"badge":"primary",
-			"glyphicon":"glyphicon-education"
-		}
-	],
 	"skills":[
 		{
 			"category":"Computer Science",
@@ -290,8 +206,12 @@
 							"percentage":"76"
 						},
 						{
-							"text":"creative",
+							"text":"creativity",
 							"percentage":"65"
+						},
+						{
+							"text":"fast learner",
+							"percentage":"95"
 						},
 						{
 							"text":"critical thinking",

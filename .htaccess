@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www\.irinikp\.com [NC]
-RewriteRule ^(.*)$ http://irinikp.com/$1 [L,R=301]

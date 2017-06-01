@@ -82,11 +82,11 @@
 					"subitems":[
 						{
 							"text":"SOAP",
-							"percentage":"85"
+							"percentage":"80"
 						},
 						{
 							"text":"REST",
-							"percentage":"50"
+							"percentage":"80"
 						}
 					]
 				},
@@ -99,7 +99,7 @@
 						},
 						{
 							"text":"Laravel",
-							"percentage":"55"
+							"percentage":"70"
 						},
 						{
 							"text":"Ruby on Rails",

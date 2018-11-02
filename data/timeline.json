@@ -86,7 +86,7 @@
 						},
 						{
 							"text":"REST",
-							"percentage":"80"
+							"percentage":"90"
 						}
 					]
 				},
@@ -99,7 +99,7 @@
 						},
 						{
 							"text":"Laravel",
-							"percentage":"70"
+							"percentage":"80"
 						},
 						{
 							"text":"Ruby on Rails",
@@ -116,7 +116,11 @@
 					"subitems":[
 						{
 							"text":"Git",
-							"percentage":"80"
+							"percentage":"90"
+						},
+						{
+							"text":"Docker",
+							"percentage":"30"
 						},
 						{
 							"text":"Grunt, Gulp",
@@ -133,6 +137,23 @@
 					]
 				},
 				{
+					"subcategory":"Operating Systems",
+					"subitems":[
+						{
+							"text":"Linux",
+							"percentage":"80"
+						},
+						{
+							"text":"Mac",
+							"percentage":"70"
+						},
+						{
+							"text":"Windows",
+							"percentage":"60"
+						}
+					]
+				},
+				{
 					"subcategory":"Programming Principles",
 					"subitems":[
 						{
@@ -145,7 +166,7 @@
 						},
 						{
 							"text":"Agile Scrum",
-							"percentage":"80"
+							"percentage":"90"
 						}
 					]
 				}

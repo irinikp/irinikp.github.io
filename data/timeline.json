@@ -94,6 +94,10 @@
 					"subcategory":"FrameWorks",
 					"subitems":[
 						{
+							"text":"Symfony",
+							"percentage":"90"
+						},
+						{
 							"text":"Bootstrap",
 							"percentage":"95"
 						},
@@ -108,31 +112,6 @@
 						{
 							"text":"AngularJS",
 							"percentage":"50"
-						}
-					]
-				},
-				{
-					"subcategory":"Tools",
-					"subitems":[
-						{
-							"text":"Git",
-							"percentage":"90"
-						},
-						{
-							"text":"Docker",
-							"percentage":"30"
-						},
-						{
-							"text":"Grunt, Gulp",
-							"percentage":"55"
-						},
-						{
-							"text":"GIMP, Photoshop",
-							"percentage":"70"
-						},
-						{
-							"text":"Matlab",
-							"percentage":"70"
 						}
 					]
 				},
@@ -165,8 +144,8 @@
 							"percentage":"90"
 						},
 						{
-							"text":"Agile Scrum",
-							"percentage":"90"
+							"text":"Agile Scrum/Scrumban/Kanban",
+							"percentage":"100"
 						}
 					]
 				}
